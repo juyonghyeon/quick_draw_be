@@ -28,7 +28,8 @@ uploadImage 메서드
 
 
 ## PredictController
-PredictService를 제어하는 코드
+리액트와 백엔드(자바)가 상호작용하기 위해 필요한 코드 <br>
+PredictService를 제어하는 코드 <br>
 @CrossOrigin
 역할
 - 다른 도메인(출처)에서 이 API에 접근할 수 있도록 허용
