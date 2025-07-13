@@ -29,16 +29,6 @@ PredictService를 제어하는 코드
 캔버스에 그린 이미지를 제출할 버튼과 제출후에 일어날 동작을 담당
 onRefresh -> 캔버스 초기화 및 새로운 단어 제공 역할
 
-## DrawContainer.js
-중복 유형을 방지하는 구조
-  el.removeEventListener('mousedown', downHandler);
-  el.addEventListener('mousedown', downHandler);
-
-onConfirmDrawing
-- 캔버스에 그려진 이미지를 변환하여 서버로 전송
-- const apiHost = process.env.REACT_APP_API_URL 가상환경 호출을 위해 사용
-- Result.js의 onRefresh 기능을 정의
-
 # 5. 구현 화면
 
 ![img_1.png](img_1.png)
