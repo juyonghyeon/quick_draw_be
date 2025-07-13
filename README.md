@@ -30,5 +30,4 @@ PredictService를 제어하는 코드
 onRefresh -> 캔버스 초기화 및 새로운 단어 제공 역할
 
 # 5. 구현 화면
-
-![img_1.png](img_1.png)
+https://github.com/juyonghyeon/quick_draw_fe
